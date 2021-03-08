@@ -17,7 +17,6 @@ required_result = int(input("Сколько километров должен с
 day = 1
 
 while first_result < required_result:
-    print("{}-й день: {:.2f}".format(day, first_result))
     first_result *= 1.1
     day += 1
 
