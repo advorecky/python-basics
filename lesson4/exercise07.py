@@ -13,8 +13,7 @@ def fact(num):
 
 try:
     user_input = int(input("Введите число для вычисления факториала: "))
+    for el in fact(user_input):
+        print(el, end=" ")
 except ValueError:
     print("Введены нечисловые данные")
-
-for el in fact(user_input):
-    print(el, end=" ")
